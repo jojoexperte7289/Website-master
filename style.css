@@ -194,6 +194,35 @@ section .main {
   justify-content: center;
   align-items: center;
 }
+.wrapper.four {
+  background-color: none;
+  color: #fff;
+  font-size: 3rem;
+  font-family: "Play", sans-serif;
+}
+.four .type{
+  padding: 2rem 1rem;
+  width: auto;
+  margin: auto;
+}
+.four h2 {
+  width: 13ch;
+  border-right: 4px solid #fff;
+  margin: 2rem auto;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+}
+@-webkit-keyframes typing {
+  from {
+      width: 0;
+  }
+}
+@-webkit-keyframes blink-caret {
+  50% {
+      border-color: transparent;
+  }
+}
 .wave {
   position: relative;
   bottom: 0;
@@ -325,7 +354,7 @@ section .about .dynamictext {
   font-size: 3.5vw;
   position: relative;
   top: 0;
-  animation: slide 9s steps(2) infinite;
+  animation: slide 9s steps(4) infinite;
 }
 @keyframes slide {
   100% {
