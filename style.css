@@ -210,7 +210,7 @@ section .main {
   margin: 2rem auto;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite alternate;
+  animation: typing 2s steps(1, end), blink-caret 0.5s step-end infinite;
 }
 @-webkit-keyframes typing {
   from {
